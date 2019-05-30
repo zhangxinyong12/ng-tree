@@ -1,0 +1,22 @@
+li{
+    padding: 4px 15px;
+    span{
+        display: inline-block;
+        
+    }
+}
+.switcher{
+    width: 24px;
+    height: 24px;
+    padding:auto 10px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+}
+:host ::ng-deep{
+    .custom-tree{
+        //  html数据里面的自定义样式
+    }
+    
+}
