@@ -1,7 +1,8 @@
 import { Component, OnInit, ViewChild, AfterViewInit, ContentChild, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'lib-custom-tree',
+  // tslint:disable-next-line:component-selector
+  selector: 'custom-tree',
   templateUrl: './custom-tree.component.html',
   styleUrls: ['./custom-tree.component.scss']
 })

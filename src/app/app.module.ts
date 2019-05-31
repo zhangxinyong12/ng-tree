@@ -3,9 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { CustomTreeComponent } from 'custom-tree';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustomTreeComponent
   ],
   imports: [
     BrowserModule

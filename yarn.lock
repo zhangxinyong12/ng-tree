@@ -1955,6 +1955,13 @@ custom-event@~1.0.0:
   resolved "https://registry.npm.taobao.org/custom-event/download/custom-event-1.0.1.tgz#5d02a46850adf1b4a317946a3928fccb5bfd0425"
   integrity sha1-XQKkaFCt8bSjF5RqOSj8y1v9BCU=
 
+custom-tree@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.npmjs.org/custom-tree/-/custom-tree-0.0.4.tgz#196256c413dfb32a1d5b6d590c4b75b128cd53ad"
+  integrity sha512-RaEuHGUATR7XVz/hS5PCIauQOl2OTKD+RBGHfH8fLTaFnPQUnM2wYeTBOJIcCbITb9WIrKBJO/f7Z475UoR5+A==
+  dependencies:
+    tslib "^1.9.0"
+
 cyclist@~0.2.2:
   version "0.2.2"
   resolved "https://registry.npm.taobao.org/cyclist/download/cyclist-0.2.2.tgz#1b33792e11e914a2fd6d6ed6447464444e5fa640"

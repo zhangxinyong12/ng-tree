@@ -1,4 +1,17 @@
 ### 自定义树形结构
+angular版本的树形结构，模仿ng-zooro
+#### 安装
+```
+npm i custom --save
+```
+#### 使用
+
+```
+  <custom-tree [nodeData]="nodes" (treeClick)=""></custom-tree>
+```
+nodeData 数据      
+treeClick 点击节点触发的函数 返回当前的item         
+如果需要自定义节点的html，请自定义 item里面的html数据格式，必须是htmlTemplate         
 #### 数据结构
 ```
 nodes = [{

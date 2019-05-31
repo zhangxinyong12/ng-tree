@@ -20,11 +20,8 @@
     ],
     "paths": {
       "custom-tree": [
-        "dist/custom-tree"
+        "projects/custom-tree/src/public-api.ts"
       ],
-      "custom-tree/*": [
-        "dist/custom-tree/*"
-      ]
     }
   }
 }

@@ -8,8 +8,10 @@
 <ng-template #nodeTree let-item>
     <li [ngClass]="{'tree-active':item.expanded}">
         <span class="switcher" (click)="expanded(item)">
-            <i *ngIf="item.children?.length>0 && item?.expanded" nz-icon nzType="caret-down" nzTheme="outline"></i>
-            <i *ngIf="item.children?.length>0 && !item?.expanded" nz-icon nzType="caret-right" nzTheme="outline"></i>
+            <!-- 下  展开-->
+            <i class="iconfont" *ngIf="item.children?.length>0 && item?.expanded">&#xe615;</i>
+            <!-- 右 折叠 -->
+            <i class="iconfont" *ngIf="item.children?.length>0 && !item?.expanded">&#xe645;</i>
         </span>
         <span (click)="active(item)" *ngIf="item.html" [innerHTML]="item.html"></span>
         <span (click)="active(item)" *ngIf="!item.html">{{item.title}}</span>
